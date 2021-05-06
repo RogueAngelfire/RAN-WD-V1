@@ -10,6 +10,7 @@ function App() {
         <Container>
           <h1>Welcome to the jungle</h1>
           <p>We like ice cream</p>
+          <p>This is annoying!!</p>
         </Container>
       </main>      
       <Footer />     
