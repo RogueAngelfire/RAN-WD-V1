@@ -8,9 +8,12 @@ function App() {
       <Header />
       <main className="py-3">
         <Container>
+
           <h1>Welcome to the jungle</h1>
           <p>We like ice cream</p>
-          <p>This is annoying!!</p>
+
+
+          <h1>Welcomee Nick has worked it outgit </h1>
         </Container>
       </main>      
       <Footer />     
