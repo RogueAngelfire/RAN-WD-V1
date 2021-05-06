@@ -1,0 +1,42 @@
+Starting Project:
+    cd frontend
+    npm start
+
+npx create-react-app frontend
+cd frontend
+npm start
+npm install react-bootstrap bootstrap
+# I didn't used above install command I am using Lux theme from 
+https://bootswatch.com/ and I have copied bootstrap.min.css downloaded from
+
+said website and copied to src folder
+    npm install react-bootstrap (This on took like more than 5 minutes)
+    npm install react-router-dom react-router-bootstrap
+    npm install axios
+    npm install redux react-redux redux-thunk redux-devtools-extension
+
+
+Website which are used
+    https://cdnjs.com/libraries?q=fontawsome
+    https://bootswatch.com/
+    https://react-bootstrap.github.io/components/navbar/
+
+Paypal account Integration:
+    <script src="https://www.paypal.com/sdk/js?client-id=test"></script>
+comman used to install third part tools for react Paypal:
+    
+    npm install react-paypal-button-v2
+
+
+changed Favicon Icon Image
+
+KEYBOARD SHORTCUT
+ctrl + d to slect multiple
+
+https://github.com/divanov11/proshop_django
+
+Hosting:
+    npm run build
+        Find out more about deployment here:
+            https://cra.link/deployment
+    

@@ -1,0 +1,64 @@
+Starting Project:
+    myenv\scripts\activate
+    cd backend
+    python manage.py runserver
+
+
+
+Setting Up virtual environment:
+    pip install virtualenv
+    virtualenv myenv
+    https://windowsloop.com/enable-powershell-scripts-execution-windows-10/
+
+
+    myenv\scripts\activate
+
+
+
+    pip list    --> to check waht pip dependicies are installed
+
+Starting Django
+    pip install django
+    django-admin startproject backend
+    cd backend
+    python manage.py runserver
+
+Installing Django Rest Framework
+    pip install djangorestframework
+
+Installing Djanog Cors Headers
+    pip install django-cors-headers
+
+Installing Pillow
+    python -m pip install Pillow
+
+Installing Jason web Tokens jwt
+    pip install djangorestframework-simplejwt
+
+FOR AMAZON WEBSERVICES
+https://django-storages.readthedocs.io/en/latest/
+    pip install boto3
+    pip install django-storages
+
+
+Migrations-commands-used:
+    py manage.py makemigrations
+    python manage.py migrate
+
+Freezing requirements
+    pip3 freeze > requirements.txt
+Installing All requirements:
+    pip3 install -r requirements.txt
+Uninstalling any package
+    python3 -m pip uninstall django-compressor
+
+Hosting Collecting Statcifiles:
+    python manage.py collectstatic
+
+http://whitenoise.evans.io/en/stable/
+    pip install whitenoise
+    MIDDLEWARE = [
+        # 'django.middleware.security.SecurityMiddleware',
+        'whitenoise.middleware.WhiteNoiseMiddleware',
+        # ...
+        ]git remote add origin https://github.com/ashur-k/RAN-WD-V1.git

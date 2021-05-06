@@ -1,0 +1,25 @@
+FAVICON ICON for website is required
+
+
+
+
+
+
+Steps I am Follwing For Nick and Robin
+    First:- I created folder called RAN-Group-Project, then  i open that folder in VS-code.
+    Second:- Second I opened VS-code terminal and wrote npx create-react-app frontend.
+        (i) frontend is folder in which react is created
+        (ii) When you guys are downloading this from Git you need to run react commands so you will not have need to install react again
+
+    Third:- I have deleted not required files, I have deleted not required lines in app.js, they were mainly for react server host run page
+        (i) Created components folder and created header and footer components
+        (ii) imported headed and footer components in app.js
+
+    Fourth:- I am installing bootstrap in react and downloading css ffrom theme to speed up things.
+        (i) https://bootswatch.com/ => Darkly => Downlaod => bootstrap.min.css => copying in src folder => importing in index.js
+        (ii) https://react-bootstrap.github.io/getting-started/introduction => 
+                npm install react-bootstrap bootstrap => (please makesure command is run in frontedn folder)
+        (iii) Please for more information don't hesitate to check links.
+    
+    Fift:- After installation restaeted server and imported Container component in app.js
+            (i) Wraping main folder inside contianer component from react bootstrap 
