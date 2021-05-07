@@ -1,1 +1,16 @@
-Add GitHub instructions here
+1. Add your changes in VS Code. Add, commit and push to GitHub. (If you can't commoit, see bottom of this list)
+2. Go to GitHub and to your repository. It will say "This branch is ahead of ashur-k:main.". Click Contribute and then hit the green "Open pull request" button.
+    You may have to resolve disputes at this point. Need more info on resolving disputes.
+3.If there are no disputes, hit the green "Create pull request" button.
+4. You will then be able to give your commit a title and add any additional comments you want or feel are needed. Comments
+     are not neccessary to proceed. Again hit the green "Create pull request" button.
+5.  Finally, hit the green "Merge pull request" button and then the green "Confirm merge" button
+6. You have merged what you added with the base repo. 
+7. This won't affect Ash for now as the base repo is his. But for Robin and me, we will need to go to our own repos to fetch and merge the changes
+    with our own repos if someone else has done as merge as we will be behind the main branch.
+
+Issues with committing on VSCode.
+    If you can't commit because you are not up to dat with the main repo, go to your GitHub,
+    repo, Fetch upstream to merge the main base with yours so that you are up to date. Then on
+    VSCode in the terminal, use the git pull command. 
+    You should then be able to commit your changes.
