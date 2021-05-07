@@ -14,6 +14,7 @@ said website and copied to src folder
     npm install react-router-dom react-router-bootstrap
     npm install axios
     npm install redux react-redux redux-thunk redux-devtools-extension
+    npm install react-scripts (From clone)
 
 
 Website which are used
