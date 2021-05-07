@@ -11,9 +11,9 @@ function App() {
 
           <h1>Welcome to the jungle</h1>
           <p>We like ice cream</p>
+          <p> Can you see this?</p>
 
           <h1>Welcomee Nick has worked it outgit </h1>
-
         </Container>
       </main>      
       <Footer />     
