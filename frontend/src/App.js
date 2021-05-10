@@ -1,6 +1,8 @@
 import { Container } from 'react-bootstrap'
+
 import Header from './components/header/Header.jsx'
 import Footer from './components/footer/Footer.jsx'
+import HeroSection from './components/hero-section/HeroSection.jsx'
 
 function App() {
   return (
@@ -9,10 +11,8 @@ function App() {
       <main className="py-3">
         <Container>
 
-          <h1>Welcome to the jungle</h1>
-          <p>We like ice cream</p>
+        <HeroSection />
 
-          <h1>Welcomee Nick has worked it out git </h1>
 
         </Container>
       </main>      
