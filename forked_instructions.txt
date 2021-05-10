@@ -1,5 +1,8 @@
-1. Add your changes in VS Code. Add, commit and push to GitHub. (If you can't commoit, see bottom of this list)
-2. Go to GitHub and to your repository. It will say "This branch is ahead of ashur-k:main.". Click Contribute and then hit the green "Open pull request" button.
+1. Add your changes in VS Code. Add, commit and push to GitHub. 
+    (If you can't commit, see bottom of this list)
+2. Go to GitHub and to your repository. 
+    It will say "This branch is ahead of ashur-k:main.". 
+    Click Contribute and then hit the green "Open pull request" button.
     You may have to resolve disputes at this point. Need more info on resolving disputes.
 3.If there are no disputes, hit the green "Create pull request" button.
 4. You will then be able to give your commit a title and add any additional comments you want or feel are needed. Comments
