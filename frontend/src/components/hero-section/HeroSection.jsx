@@ -8,8 +8,8 @@ function HeroSection() {
         <Jumbotron >
         <h1 className="text-center">WEBSITE SOLUTION</h1>
         <p className="text-center">
-          This is a simple hero unit, a simple jumbotron-style component for calling
-          extra attention to featured content or information.
+          We build static and e-commerce sites. We provide solutions for updating and old sites
+          and building new sites. Our aim is to create interaactive and fast websites for our customers.
         </p>
         <p className="text-center">
           <Button variant="primary">Learn more</Button>
