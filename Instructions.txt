@@ -23,3 +23,39 @@ Steps I am Follwing For Nick and Robin
     
     Fift:- After installation restaeted server and imported Container component in app.js
             (i) Wraping main folder inside contianer component from react bootstrap 
+
+
+10-May-2021:
+    Step 1: I have copied pasted fontaswsome link from below website to index.html file inside public folder.
+        (i)  https://cdnjs.com/ -> search fontswsome and copy link
+        (ii) added cart and user icon in  navbar
+    
+    Step 2: Installing react-router-dom
+        (i)make sure we are in frontend folder. OR In Robin and Nick case npm install react-packages
+        (ii)npm install react-router-dom react-router-bootstrap
+    
+    Important Inforamtion:
+        (i) Just consider React router is way how we are going to jump from one page to another
+    
+    Step 3: Preparing for database connection,
+        (i) Please look inside src folder for programmer.js file 
+        (ii) This file is temporaily created later all that data is in this file will be inside our django database
+        (iii) Creating images folder inside public folder and copying temporaily some images
+    
+    Step 5: Creating new folder ins src and calling it screens
+        (i) Actually consider them as different pages just for understanding purposes
+        (ii) Creating file in folder calling it HomeScreen'js
+        (iii)Doing rfce in blank file to get react functional component
+    
+    Step 6: Creating Programmer component (please pay attention here, we are about to understand actual logic of component)
+        (i)In componenets folder we are creating new component and it is programmer
+        (ii)Now from programmerscreeen we are going to use that component by importing it
+        (iii)From programmer screen we are going to send programmer data as props
+        (iv)And by doing this we will be able to access all data which is going to come from database
+        (v)At the moment I have created teporary data iniside programmer.js file in src folder
+
+
+    Step 7: Importing react-router-dom in app.js
+        (i) Chabgig div tag with Router tag that I just have imported
+        (ii) Importing LinkContainer in header.js
+        (iii) Changing a tags with LinkContainer tag
