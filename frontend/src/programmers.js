@@ -7,6 +7,9 @@ const programmers = [
               'Specialise in photography, frontend designs and Python JS programmer',
             'qualification': 'Diploma Code Institute',
             'speciality': 'Javascript',
+            'project_image_1': '/images/RR-cloth.png',
+            'project_image_2': '/images/covid.png',
+            'project_image_3': '/images/Boutique_ado.png',
         },
         {
             'id': '2',
@@ -16,6 +19,10 @@ const programmers = [
               'Specialise in photography, frontend designs and Python JS programmer',
             'qualification': 'Diploma Code Institute',
             'speciality': 'Database Designs',
+            'project_image_1': '/images/RR-cloth.png',
+            'project_image_2': '/images/covid.png',
+            'project_image_3': '/images/Boutique_ado.png',
+
         }, 
         {
             'id': '3',
@@ -25,6 +32,9 @@ const programmers = [
               'Specialise in photography, frontend designs and Python JS programmer',
             'qualification': 'Diploma Code Institute',
             'speciality': 'Python',
+            'project_image_1': '/images/RR-cloth.png',
+            'project_image_2': '/images/covid.png',
+            'project_image_3': '/images/Boutique_ado.png',
         }    
 ]
 
