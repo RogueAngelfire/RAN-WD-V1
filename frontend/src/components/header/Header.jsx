@@ -9,7 +9,7 @@ function Header() {
             <Navbar className="nav-background" expand="lg" collapseOnSelect>
                 <Container>  
                 <LinkContainer to='/'>
-                    <Navbar.Brand href="/">RAN-WD</Navbar.Brand>
+                    <Navbar.Brand>RAN-WD</Navbar.Brand>
                 </LinkContainer>             
                     
                     
