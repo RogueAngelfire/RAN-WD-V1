@@ -2,9 +2,9 @@ const programmers = [
         {
             'id': '1',
             'name': 'Robin Collins',
-            'image': '/images/default.jpg',
+            'image': '/images/robin_phone.jpg',
             'about':
-              'Specialise in photograohy, frontend designs and Python JS programmer',
+              'Specialise in photography, frontend designs and Python JS programmer',
             'qualification': 'Diploma Code Institute',
             'speciality': 'Javascript',
         },
@@ -13,7 +13,7 @@ const programmers = [
             'name': 'Nick Barker',
             'image': '/images/default.jpg',
             'about':
-              'Specialise in photograohy, frontend designs and Python JS programmer',
+              'Specialise in photography, frontend designs and Python JS programmer',
             'qualification': 'Diploma Code Institute',
             'speciality': 'Database Designs',
         }, 
@@ -22,7 +22,7 @@ const programmers = [
             'name': 'Ashur Kanwal',
             'image': '/images/ash.jpg',
             'about':
-              'Specialise in photograohy, frontend designs and Python JS programmer',
+              'Specialise in photography, frontend designs and Python JS programmer',
             'qualification': 'Diploma Code Institute',
             'speciality': 'Python',
         }    
