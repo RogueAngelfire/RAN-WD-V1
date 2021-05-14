@@ -64,6 +64,7 @@ function PricePlanScreen() {
         
 
         </div>
+        </div>
     )
 }
 

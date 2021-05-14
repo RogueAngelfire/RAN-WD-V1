@@ -60,11 +60,12 @@ Steps I am Follwing For Nick and Robin
         (ii) Importing LinkContainer in header.js
         (iii) Changing a tags with LinkContainer tag
 
-14-05-2021: Implementing Django in our project:-
+14-05-2021: 
+Implementing Django in our project:-
     First thing for python we need to set up virtual environment.
-        -> Quick recap = Please write command pip make_list
+        -> Quick recap = Please write command pip list
             (i) It will tell us what we have installed insisde our python packages folder.
-        -> To install virtaul environement so wh don't install packages inside python paskaged folder.
+        -> To install virtaul environement.
             (i) pip install virtualenv {I think in our case its already installed but you can do it again}
             (ii)Setting up virtual env with name RANenv => virtualenv RANenv
             (iii) When I ran above command I have output requirement already satisfied
@@ -76,9 +77,9 @@ Steps I am Follwing For Nick and Robin
     
     Installing following new packages:
         So I am isntalling all these new packages Robin and Nick have to run below commands,
-        So you don't need to install packages by commands, its also important so for reason if we 
-        end up with different versions of installations then some of us might see some problems 
-        that other don't
+            So you don't need to install packages by commands, its also important so for reason if we 
+            end up with different versions of installations then some of us might see some problems 
+            that other don't
 
             (i) pip install -r requirements.txt {inside RAN folder make sure we are not in frontend folder}
             (ii)npm install packages inside frontend folder
@@ -101,13 +102,13 @@ Steps I am Follwing For Nick and Robin
         (iv) 'programmers.apps.ProgrammersConfig', added this line in settings.py inside INSTALLED_APPS
 
     Little bit recap,
-        (i) So in django we have 2 types of views function base views that we learnt at code insitite
+        (i) So in django we have 2 types of views function, function base views that we learnt at code insitite
         (ii) Class base views that we haven't learnt yet
         (iii) So difference is class base view are advance and there are so many things that get 
                 configured automatically in class base views but we might not able to see flow
                 of logic in class base view so we are goign to use function base views
 
-    Createing new funciton in djagno progammers folder.
+    Creating new funciton in djagno progammers folder.
         (i)importing JsonResponse => from django.http import JsonResponse
         (ii)creating a dummy route for testing and seeing functioning later on this view
             will be of no use
@@ -129,3 +130,8 @@ Steps I am Follwing For Nick and Robin
         (iii)above is code inside programmers.view file 
         (iv) added that to programmers.urls.py so we can see data in browser
         (v)I can see data of programmers inside the browser no error.
+
+    
+    Installing django rest framwork known as django DRF
+        (i) DRF documentation => https://www.django-rest-framework.org/
+
