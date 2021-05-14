@@ -7,6 +7,10 @@ import './PricePlanScreen.css';
 
 function PricePlanScreen() {
     return (
+
+        <div>
+            <h1>Price Plans</h1>            
+
         <div className="nav-background jumbotron priceplan" >
             
             <Row className="m-auto">
@@ -58,6 +62,7 @@ function PricePlanScreen() {
                 </Col>
             </Row>
         
+
         </div>
     )
 }

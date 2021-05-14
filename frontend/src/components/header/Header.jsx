@@ -5,11 +5,11 @@ import { LinkContainer } from 'react-router-bootstrap'
 
 function Header() {
     return (
-        <header>        
+        <header className="sticky-top">        
             <Navbar className="nav-background" expand="lg" collapseOnSelect>
                 <Container>  
                 <LinkContainer to='/'>
-                    <Navbar.Brand href="/">RAN-WD</Navbar.Brand>
+                    <Navbar.Brand>RAN-WD</Navbar.Brand>
                 </LinkContainer>             
                     
                     
@@ -17,7 +17,9 @@ function Header() {
                         <Navbar.Collapse id="basic-navbar-nav">                     
                             <Col sm={10}>
                                 <Nav className="mr-auto">
+                                
                                     <Nav.Link href="/">Home</Nav.Link>
+
                                     <NavDropdown title="Services" id="basic-nav-dropdown">
                                         <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                                         <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>

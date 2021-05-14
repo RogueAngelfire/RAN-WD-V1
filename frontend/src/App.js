@@ -12,20 +12,23 @@ import HomeScreen from './screens/HomeScreen'
 function App() {
   return (
     <Router>    
-      <Header />
+      <Header />  
+
       <main className="py-3">
         <Container>
+
+          <Route path='/' component={HomeScreen} exact/>
+          <Route path='/about' component={ProgrammersScreen} exact/>
         
-        
-        <Route path='/' component={HomeScreen} exact/>
-        <Route path='/about' component={ProgrammersScreen} exact/>
         <Route path='/pricePlan' component={PricePlanScreen} exact/>
         <Route path='/programmerdetails/:id' component={ProgrammerDetails} />
 
 
         </Container>
-      </main>      
-      <Footer />     
+      </main>   
+
+      <Footer />    
+
     </Router>
   );
 }
