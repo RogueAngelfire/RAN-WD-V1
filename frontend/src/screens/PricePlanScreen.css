@@ -1,0 +1,17 @@
+/*.pricePlan {
+    background-color: white;
+    color: black;
+} */
+
+div.priceplan {
+    background: white;
+    color: rgb(80, 79, 79);
+}
+
+.priceimage {
+    padding: 10px;
+}
+
+/*.nav-background {
+    background-color: #97e0cd;
+}*/
