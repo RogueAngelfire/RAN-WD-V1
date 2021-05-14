@@ -59,3 +59,73 @@ Steps I am Follwing For Nick and Robin
         (i) Chabgig div tag with Router tag that I just have imported
         (ii) Importing LinkContainer in header.js
         (iii) Changing a tags with LinkContainer tag
+
+14-05-2021: Implementing Django in our project:-
+    First thing for python we need to set up virtual environment.
+        -> Quick recap = Please write command pip make_list
+            (i) It will tell us what we have installed insisde our python packages folder.
+        -> To install virtaul environement so wh don't install packages inside python paskaged folder.
+            (i) pip install virtualenv {I think in our case its already installed but you can do it again}
+            (ii)Setting up virtual env with name RANenv => virtualenv RANenv
+            (iii) When I ran above command I have output requirement already satisfied
+            (iv) If everything is good then we are going to see RANenv folder next to frontend folder
+            (v) Activaitng our Envirionment => RANenv\scripts\activate
+            (vi) We will see that we have (RANenv) like this before our folder path
+            (vii) Once we see this means our environment is active
+            (viii) Please now do pip list command again and you will notice there are a lot less dependices now
+    
+    Installing following new packages:
+        So I am isntalling all these new packages Robin and Nick have to run below commands,
+        So you don't need to install packages by commands, its also important so for reason if we 
+        end up with different versions of installations then some of us might see some problems 
+        that other don't
+
+            (i) pip install -r requirements.txt {inside RAN folder make sure we are not in frontend folder}
+            (ii)npm install packages inside frontend folder
+        
+        (i)pip install django
+        (ii) pip3 freeze > requirements.txt (Going to do this everytime so requirements file is upto date for you guys)
+        (iii) django-admin startproject backend
+    
+    Starting django server:
+        (i)cd backend
+        (ii)python manage.py runserver
+
+        Important => So at this point you will notice you have 2 server running one at port 3000
+        and other at port 8000, they are respectively react and django servers
+
+    Creating New Django App with name programmers
+        (i)python manage.py startapp programmers
+        (ii) new programmers folder is now created with files, models, views, etc
+        (iii) adding app to settings.py file
+        (iv) 'programmers.apps.ProgrammersConfig', added this line in settings.py inside INSTALLED_APPS
+
+    Little bit recap,
+        (i) So in django we have 2 types of views function base views that we learnt at code insitite
+        (ii) Class base views that we haven't learnt yet
+        (iii) So difference is class base view are advance and there are so many things that get 
+                configured automatically in class base views but we might not able to see flow
+                of logic in class base view so we are goign to use function base views
+
+    Createing new funciton in djagno progammers folder.
+        (i)importing JsonResponse => from django.http import JsonResponse
+        (ii)creating a dummy route for testing and seeing functioning later on this view
+            will be of no use
+        (iii)def getRoutes(request):
+                return JsonResponse('Helloe', safe=False)
+        (iv) above are the codes written in programmers.view and now adding new urls file inside programmers folder
+        (v) adding refrence of programmers.urls in main settings url file
+        (vi)starting django server to check views and urls working
+    
+    Creating new file in programmers.py inside python, programmers app 
+        (i)Copy pasiting data from programer.js file inside frontend/src folder
+        (ii)Removing const to convert json data into python dictinary
+        (iii)removing last export default line
+    
+    Importing programmers.py file inside our views file
+        (i) from .programmers import programmers
+        (ii)def getProgrammers(request):
+            return JsonResponse(programmers, safe=False))
+        (iii)above is code inside programmers.view file 
+        (iv) added that to programmers.urls.py so we can see data in browser
+        (v)I can see data of programmers inside the browser no error.

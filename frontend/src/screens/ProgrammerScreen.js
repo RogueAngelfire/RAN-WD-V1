@@ -2,6 +2,7 @@ import React from 'react'
 import { Row, Col } from 'react-bootstrap'
 
 import programmers from '../programmers'
+
 import Programmer from '../components/programmer/Programmer.jsx'
 
 // Please have a look at programmers.map javascript function its one of 4 main javascript funciton
