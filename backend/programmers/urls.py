@@ -5,5 +5,4 @@ urlpatterns = [
     path('', views.getRoutes, name="routes"),
     path('programmers/', views.getProgrammers, name="programmers"),
     
-
 ]
