@@ -5,7 +5,7 @@ FAVICON ICON for website is required
 
 
 
-Steps I am Follwing For Nick and Robin
+Steps I am Following For Nick and Robin
     First:- I created folder called RAN-Group-Project, then  i open that folder in VS-code.
     Second:- Second I opened VS-code terminal and wrote npx create-react-app frontend.
         (i) frontend is folder in which react is created
@@ -16,7 +16,7 @@ Steps I am Follwing For Nick and Robin
         (ii) imported headed and footer components in app.js
 
     Fourth:- I am installing bootstrap in react and downloading css ffrom theme to speed up things.
-        (i) https://bootswatch.com/ => Darkly => Downlaod => bootstrap.min.css => copying in src folder => importing in index.js
+        (i) https://bootswatch.com/ => Darkly => Download => bootstrap.min.css => copying in src folder => importing in index.js
         (ii) https://react-bootstrap.github.io/getting-started/introduction => 
                 npm install react-bootstrap bootstrap => (please makesure command is run in frontedn folder)
         (iii) Please for more information don't hesitate to check links.
@@ -26,7 +26,7 @@ Steps I am Follwing For Nick and Robin
 
 
 10-May-2021:
-    Step 1: I have copied pasted fontaswsome link from below website to index.html file inside public folder.
+    Step 1: I have copied pasted fontawesome link from below website to index.html file inside public folder.
         (i)  https://cdnjs.com/ -> search fontswsome and copy link
         (ii) added cart and user icon in  navbar
     
@@ -34,7 +34,7 @@ Steps I am Follwing For Nick and Robin
         (i)make sure we are in frontend folder. OR In Robin and Nick case npm install react-packages
         (ii)npm install react-router-dom react-router-bootstrap
     
-    Important Inforamtion:
+    Important Information:
         (i) Just consider React router is way how we are going to jump from one page to another
     
     Step 3: Preparing for database connection,
@@ -75,7 +75,7 @@ Steps I am Follwing For Nick and Robin
             (viii) Please now do pip list command again and you will notice there are a lot less dependices now
     
     Installing following new packages:
-        So I am isntalling all these new packages Robin and Nick have to run below commands,
+        So I am installing all these new packages Robin and Nick have to run below commands,
         So you don't need to install packages by commands, its also important so for reason if we 
         end up with different versions of installations then some of us might see some problems 
         that other don't
