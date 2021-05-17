@@ -1,3 +1,19 @@
-.nav-background{
-    background-color: rgb(240, 240, 198);
-}
+#nav {
+  background-image: linear-gradient(to bottom right, rgba(193, 202, 111, 0.4), rgb(193, 212, 219));
+    color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+ 
+    
+  }
+  .active {
+    visibility: visible;
+    transition: all 0.5s;
+  }
+  .hidden {
+    visibility: hidden;
+    transition: all 0.5s;
+    transform: translateY(-100%);
+  }

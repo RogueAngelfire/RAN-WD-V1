@@ -9,20 +9,22 @@ import PricePlanScreen from './screens/PricePlanScreen'
 
 import HomeScreen from './screens/HomeScreen'
 
+
 function App() {
   return (
     <Router>    
-      <Header />  
-
+      <Header />
+      
+  
       <main className="py-3">
-        <Container>
+        <Container className="margin-top">
 
           <Route path='/' component={HomeScreen} exact/>
           <Route path='/about' component={ProgrammersScreen} exact/>
-        
-        <Route path='/pricePlan' component={PricePlanScreen} exact/>
-        <Route path='/programmerdetails/:id' component={ProgrammerDetails} />
-
+          <Route path='/pricePlan' component={PricePlanScreen} exact/>
+          <Route path='/programmerdetails/:id' component={ProgrammerDetails} />
+          
+          
 
         </Container>
       </main>   

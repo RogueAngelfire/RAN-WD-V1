@@ -5,7 +5,7 @@ import { Jumbotron, Button } from 'react-bootstrap'
 function HeroSection() {
     return (
         <div>
-        <Jumbotron >
+        <Jumbotron className="margin-top">
         <h1 className="text-center">WEBSITE SOLUTION</h1>
         <p className="text-center">
           We build static and e-commerce sites. We provide solutions for updating and old sites
