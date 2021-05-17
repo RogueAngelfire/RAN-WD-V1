@@ -9,7 +9,7 @@ function PricePlanScreen() {
     return (
 
         <div className="nav-background jumbotron priceplan" >
-            <h1>Price Plans</h1> 
+
             
             <Row className="m-auto">
                 <Col className="m-auto" sm={6}>
@@ -59,7 +59,14 @@ function PricePlanScreen() {
                     <Image className="priceimage" src="https://images.unsplash.com/photo-1527380992061-b126c88cbb41?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2501&q=80" fluid />
                 </Col>
             </Row>
-        </div>   
+
+        
+
+        </div>
+       
+
+       
+
     )
 }
 
