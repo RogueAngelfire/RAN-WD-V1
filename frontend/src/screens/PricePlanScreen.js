@@ -9,7 +9,7 @@ function PricePlanScreen() {
     return (
 
         <div className="nav-background jumbotron priceplan" >
-            <h1>Price Plans</h1> 
+
             
             <Row className="m-auto">
                 <Col className="m-auto" sm={6}>

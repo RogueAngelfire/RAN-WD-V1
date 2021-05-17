@@ -1,46 +1,36 @@
 import React from 'react'
 import { Carousel } from 'react-bootstrap'
+import Loader from '../loader/Loader'
+import Message from '../message/Message.jsx'
 
 function CarouselComponent({ programmer }) {
+   
     return (
         <div>
-        <Carousel fade>
-            <Carousel.Item className="text-dark">
-                <img
-                className="d-block w-100"
-                src={programmer.project_image_1}
-                alt="First slide"
-                />
-                <Carousel.Caption className="text-dark">
-                <h3>{programmer.name}</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item className="text-dark">
-                <img
-                className="d-block w-100"
-                src={programmer.project_image_2}
-                alt="Second slide"
-                />
-
-                <Carousel.Caption className="text-dark"> 
-                <h3>Second slide label</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item className="text-dark">
-                <img
-                className="d-block w-100"
-                src={programmer.project_image_3}
-                alt="Third slide"
-                />
-
-                <Carousel.Caption className="text-dark">
-                <h3 className="text-dark">Third slide label</h3>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                </Carousel.Caption>
-            </Carousel.Item>
-        </Carousel>
+        <h3 className="text-center">Projects Made By {programmer.name}.</h3>
+        {programmer.projects.length === 0 
+            ?
+                <Message variant='info'>
+                    Robin's Projects Need Updating In Database.
+                </Message>
+            : 
+                <Carousel fade>
+                    {programmer.projects.map((project) => (
+                        <Carousel.Item className="text-dark">
+                            <img
+                            className="d-block w-100"
+                            src={project.image}
+                            alt="First slide"
+                            />
+                            <Carousel.Caption className="text-dark">
+                            <h3>{project.title}</h3>
+                            <p>{project.description}</p>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                    ))}
+                </Carousel>
+        }
+        
             
         </div>
     )
