@@ -25,7 +25,7 @@ function ProgrammerScreen() {
     
     return (
         <div>
-            <h1 className="text-center mb-5 text-uppercase">Our Team</h1>
+            <h1 className="text-center mb-5 text-uppercase">Our Team Members</h1>
             {loading ? <Loader />
                 : error ? <Message variant="danger">{error}</Message>
                 :
