@@ -76,17 +76,10 @@ Implementing Django in our project:-
             (viii) Please now do pip list command again and you will notice there are a lot less dependices now
     
     Installing following new packages:
-<<<<<<< HEAD
         So I am installing all these new packages Robin and Nick have to run below commands,
         So you don't need to install packages by commands, its also important so for reason if we 
         end up with different versions of installations then some of us might see some problems 
         that other don't
-=======
-        So I am isntalling all these new packages Robin and Nick have to run below commands,
-            So you don't need to install packages by commands, its also important so for reason if we 
-            end up with different versions of installations then some of us might see some problems 
-            that other don't
->>>>>>> b0761eb52e16ab22170709980cbc6ecc7ccb55b9
 
             (i) pip install -r requirements.txt {inside RAN folder make sure we are not in frontend folder}
             (ii)npm install packages inside frontend folder
