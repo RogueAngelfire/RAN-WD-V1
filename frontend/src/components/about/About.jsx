@@ -73,7 +73,7 @@ function About() {
                         <Col className="mt-2 d-flex justify-content-center" sm={12}>                                     
                             <Card style={{ width: '18rem' }}>
                         
-                                <Card.Img className="image" variant="top" src="https://images.unsplash.com/photo-1593642531955-b62e17bdaa9c?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80/100px180?text=Image cap" />
+                                
                             </Card>
                         </Col>
                 </Row>
