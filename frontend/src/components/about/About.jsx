@@ -4,9 +4,9 @@ import './about.style.css'
 function About() {
     return (
         <div>
-            <Row className="background p-5 text-dark d-flex align-items-center rounded">
+            <Row className="p-5 about-row-background text-dark d-flex align-items-center rounded">
                 <Col sm={12}>
-                    <h3 className="text-dark text-center">RAN-WD | Website Solutions</h3>
+                    <h3 className="text-success text-center">RAN <span className="text-danger">WEB</span> <span className="text-warning">CRAFTS</span></h3>
                 </Col>
                 <Col  sm={8}>
                 
@@ -61,19 +61,19 @@ function About() {
                 <Col sm={4}>
                     <Row>
                     <Col className="mt-2" sm={12}>
-                            <h6 className="bg-warning p-2 text-center rounded">We are Listening</h6>
+                            <h6 className="p-2 text-white lead text-center rounded">We are Listening</h6>
                         </Col>
                         <Col sm={12}>
-                            <Image src="https://images.unsplash.com/photo-1608127347890-3fd1d0323b3f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=588&q=80" fluid />
+                            <Image className="image" src="https://images.unsplash.com/photo-1608127347890-3fd1d0323b3f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=588&q=80" fluid />
                         </Col>
                         <Col className="mt-2" sm={12}>
-                            <h6 className="bg-warning p-2 text-center rounded" >Innovative and Clean</h6>
+                            <h6 className="text-white lead p-2 text-center rounded" >Innovative and Clean</h6>
                         </Col>
                     
                         <Col className="mt-2 d-flex justify-content-center" sm={12}>                                     
                             <Card style={{ width: '18rem' }}>
                         
-                                <Card.Img variant="top" src="https://images.unsplash.com/photo-1593642531955-b62e17bdaa9c?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80/100px180?text=Image cap" />
+                                <Card.Img className="image" variant="top" src="https://images.unsplash.com/photo-1593642531955-b62e17bdaa9c?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80/100px180?text=Image cap" />
                             </Card>
                         </Col>
                 </Row>

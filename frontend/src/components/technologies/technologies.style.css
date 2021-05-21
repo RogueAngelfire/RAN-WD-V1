@@ -1,0 +1,10 @@
+.technologies-row-bg{
+    background-color: rgba(243, 156, 18, 0.4);
+    background-image: linear-gradient(to bottom right, rgba(243, 156, 18, 0.6), #002645);
+}
+.i-technologies{
+    margin: 1px;
+    padding: 5px;
+    font-size: 3rem;
+    color:#fff;
+}

@@ -28,12 +28,12 @@ export default class Header extends React.Component {
     render() {
         console.log(this.state);
         return <header className="Fixed">        
-        <Navbar id="nav" className={this.state.show ? "active" : "hidden"} expand="lg" collapseOnSelect>
+        <Navbar id="nav" variant="dark" className={this.state.show ? "active" : "hidden"} expand="lg" collapseOnSelect>
             <Container className="text-white">  
             <LinkContainer to='/'>
-                <Navbar.Brand>RAN-WD</Navbar.Brand>
+                <Navbar.Brand className="text-white">RAN-WEB CRAFTS</Navbar.Brand>
             </LinkContainer>                           
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Toggle variant="light"  aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">                     
                         <Col sm={10}>
                             <Nav className="mr-auto">
@@ -61,10 +61,10 @@ export default class Header extends React.Component {
                         </Col>
                         <Col sm={2}>
                         <LinkContainer to='/cart'>
-                            <Nav.Link className="m-0 p-0 text-dark"><i className="fas fa-shopping-cart"></i> Cart</Nav.Link>
+                            <Nav.Link className="m-0 p-0  text-white"><i className="fas fa-shopping-cart"></i> Cart</Nav.Link>
                         </LinkContainer>
                         <LinkContainer to='/user'>                               
-                            <Nav.Link className="m-0 p-0 text-dark"><i className="fas fa-user"></i> Login</Nav.Link>     
+                            <Nav.Link className="m-0 p-0  text-white"><i className="fas fa-user"></i> Login</Nav.Link>     
                             </LinkContainer>
                             </Col>     
                     </Navbar.Collapse>                
