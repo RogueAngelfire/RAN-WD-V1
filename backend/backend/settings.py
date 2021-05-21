@@ -37,11 +37,13 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    
+
+
     # Customly created apps
     # Normally we only add apps name but adding it this way as whole line
     # helps better when we are adding signals and other codes
     'programmers.apps.ProgrammersConfig',
+    'pricePlan.apps.PriceplanConfig',
     
     # Isntalled app
     'rest_framework',
