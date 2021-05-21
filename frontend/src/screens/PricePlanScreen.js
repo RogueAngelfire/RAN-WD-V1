@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
+import { useDispatch, useSelector } from 'react-redux'
+import { listPricePlan } from '../actions/pricePlanActions'
 
 import { Row, Col, Card, ListGroup, Image } from 'react-bootstrap';
 
@@ -6,6 +8,17 @@ import './PricePlanScreen.css';
 
 
 function PricePlanScreen() {
+
+    const dispatch = useDispatch()
+    const pricePlanList = useSelector(state => state.pricePlanList)
+    const { error, loading, PricePlan } = pricePlanList
+    
+ 
+    useEffect(() => {
+        dispatch(listPricePlan())
+    }, [dispatch])
+
+
     return (
 
         <div className="nav-background jumbotron priceplan" >
@@ -21,38 +34,22 @@ function PricePlanScreen() {
                         world stage of business. Offering eCommerce services with minimal transaction fees.
                     </p>
                     <Row className="text-white">
+                    {PricePlan.map(pp =>(
                         <Col sm={6}>
                             <Card style={{ width: '16rem' }}>
                             <Card.Body>
-                                <Card.Title>Static Websites from £375</Card.Title>
+                                <Card.Title>{pp.package_title}</Card.Title>
                                 <Card.Text>
                                 <ListGroup>
-                            <ListGroup.Item>• You Get</ListGroup.Item>
-                            <ListGroup.Item>• This</ListGroup.Item>
-                            <ListGroup.Item>• That</ListGroup.Item>
-                            <ListGroup.Item>• And the Other</ListGroup.Item>
-                            <ListGroup.Item>• Plus hosting costs</ListGroup.Item>
+                            <ListGroup.Item>{pp.package_price}</ListGroup.Item>
+                            <ListGroup.Item>{pp.package_description}</ListGroup.Item>
+                            <ListGroup.Item>£{pp.hourly_rates}</ListGroup.Item>
                             </ListGroup>
                             </Card.Text>
                             </Card.Body>
                             </Card>
                         </Col>
-                        <Col sm={6}>
-                        <Card style={{ width: '16rem' }}>
-                            <Card.Body>
-                              <Card.Title>eCommerce Websites from £900</Card.Title>
-                              <Card.Text>
-                              <ListGroup>
-                            <ListGroup.Item>• You Get</ListGroup.Item>
-                            <ListGroup.Item>• This</ListGroup.Item>
-                            <ListGroup.Item>• That</ListGroup.Item>
-                            <ListGroup.Item>• And the Other</ListGroup.Item>
-                            <ListGroup.Item>• Plus hosting costs</ListGroup.Item>
-                            </ListGroup>
-                                </Card.Text>
-                            </Card.Body>
-                            </Card>
-                </Col>
+                        ))}
                     </Row>
                 </Col>
                 <Col sm={6}>
