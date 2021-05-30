@@ -1,5 +1,5 @@
 import { Container } from 'react-bootstrap'
-import {BrowserRouter as Router, Route} from 'react-router-dom'
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 
 import Header from './components/header/Header.jsx'
 import Footer from './components/footer/Footer.jsx'
@@ -18,7 +18,7 @@ function App() {
       
         <Container className="margin-top">
 
-        <Route path='/' component={HomeScreen} exact/>
+          <Route path='/' component={HomeScreen} exact/>
           <Route path='/about' component={ProgrammersScreen} exact/>
           <Route path='/pricePlan' component={PricePlanScreen} exact/>
           <Route path='/programmerdetails/:id' component={ProgrammerDetails} />

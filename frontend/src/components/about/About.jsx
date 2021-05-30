@@ -1,6 +1,7 @@
 import React from 'react'
 import { Card, Row, Col, Image } from 'react-bootstrap'
 import './about.style.css'
+import image1 from './spinning-arrows.gif'
 function About() {
     return (
         <div>
@@ -72,8 +73,10 @@ function About() {
                     
                         <Col className="mt-2 d-flex justify-content-center" sm={12}>                                     
                             <Card style={{ width: '18rem' }}>
+                          
+                            
+                            <img className="image" src={image1} alt="Girl in a jacket" />
                         
-                                
                             </Card>
                         </Col>
                 </Row>
